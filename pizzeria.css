@@ -1,0 +1,13 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: white;
+}
+#fejlec{
+    background-image: url(img/kep1.jpg);
+    height: 500px;
+    background-position: center;
+}
+#bemutatkozas{
+    background-color: #282424;
+}
