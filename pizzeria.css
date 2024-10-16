@@ -21,7 +21,7 @@ a{
     text-decoration: none;
     padding: 0px 5px 0px 5px;
 }
-h1{
+#focim{
     padding: 40px;
     float: left;
     margin: 0px;
@@ -31,4 +31,17 @@ h1{
 
 #fokeret{
     width: 100%;
+}
+#tortenetunk{
+    background-color: #222222;
+    height: 20%;
+    text-align: right;
+}
+#tort_bal{
+    float: left;
+    width: 50%;
+}
+#tort_szoveg{
+    float: right;
+    width: 50%;
 }
