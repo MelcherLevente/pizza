@@ -2,6 +2,8 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     color: white;
+    font-size: 87%;
+    margin: 0px;
 }
 #fejlec{
     background-image: url(img/kep1.jpg);
@@ -34,14 +36,44 @@ a{
 }
 #tortenetunk{
     background-color: #222222;
-    height: 20%;
+    height: 300px;
     text-align: right;
 }
 #tort_bal{
     float: left;
-    width: 50%;
+    width: 35%;
+    display: inline;
+    padding: 40px 20px 156px 0px;
+    height: 100%;
+}
+#tort_jobb{
+    display: inline;
+    width: 65%;
+    text-align: left;
+    height: 100%;
 }
 #tort_szoveg{
-    float: right;
-    width: 50%;
+    margin: 0px;
+    padding: 57.152px 300px 0px 0px;
+    line-height: 150%;
+}
+h3{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+h1{
+    margin-bottom: 7px;
+}
+#foglalas{
+    font-weight: bold;
+    margin-top: 20px;
+    padding-bottom: 6px;
+}
+
+
+
+#ajanlatunk{
+    height: 400px;
+    background-color: #101010;
 }
