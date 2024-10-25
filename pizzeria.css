@@ -4,10 +4,14 @@ html{
     color: white;
     margin: 0px;
 }
+body{
+    margin: 0px;
+}
 #fejlec{
     background-image: url(img/kep1.jpg);
-    height: 500px;
-    background-position: center;
+    height: 450px;
+    background-position: center center;
+    background-size: cover;
 }
 #bemutatkozas{
     background-color: #282424;
@@ -27,7 +31,9 @@ a{
     float: left;
     margin: 0px;
 }
-
+h1{
+    font-size: 170%;
+}
 
 
 #fokeret{
@@ -60,6 +66,8 @@ h3{
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
+    font-size: 110%;
+    color: rgb(116, 116, 116);
 }
 #foglalas{
     font-weight: bold;
@@ -93,4 +101,32 @@ h3{
 #ajanlatunk p{
     margin-bottom: 20px;
     line-height: 150%;
+}
+
+
+
+#special{
+    height: 900px;
+    background: #222222;
+    text-align: center;
+}
+
+#special h1{
+    padding: 60px 60px 10px 60px;
+    margin: 0px;
+}
+#spec_tartalom{
+    margin: auto;
+    width: 65%;
+}
+#kep1{
+    width: 60%;
+    float: left;
+    margin: 10px;
+}
+#kep2{
+    float: right;
+    width: 35%;
+    height: 400px;
+    margin: 10px;
 }
