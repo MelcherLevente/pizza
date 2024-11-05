@@ -119,14 +119,52 @@ h3{
     margin: auto;
     width: 65%;
 }
-#kep1{
-    width: 60%;
+#spec_bal{
+    width: 70%;
     float: left;
-    margin: 10px;
+}
+#kep1{
+    margin: 20px;
+    height: 350px;
+    background-image: url(img/kep1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+#kep3{
+    background-image: url(img/kep3.jpg);
+    float: left;
+    width: 247.325px;
+    height: 247.325px;
+    margin: 20px 10px 20px 20px;
+    background-size: cover;
+    background-position: center center;
+}
+#kep4{
+    background-image: url(img/kep4.jpg);
+    float: right;
+    width: 247.325px;
+    height: 247.325px;
+    margin: 20px 20px 20px 10px;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#spec_jobb{
+    float: right;
+    width: 30%;
 }
 #kep2{
-    float: right;
-    width: 35%;
-    height: 400px;
+    height: 450px;
     margin: 10px;
+    background-image: url(img/kep2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#kep5{
+    background-image: url(img/kep5.jpg);
+    height: 160px;
+    background-size: cover;
+    background-position: center center;
+    margin: 40px 10px 0px 10px;
 }
