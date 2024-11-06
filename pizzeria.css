@@ -106,7 +106,7 @@ h3{
 
 
 #special{
-    height: 900px;
+    height: 880px;
     background: #222222;
     text-align: center;
 }
@@ -133,7 +133,7 @@ h3{
 #kep3{
     background-image: url(img/kep3.jpg);
     float: left;
-    width: 247.325px;
+    width: 43%;
     height: 247.325px;
     margin: 20px 10px 20px 20px;
     background-size: cover;
@@ -142,7 +142,7 @@ h3{
 #kep4{
     background-image: url(img/kep4.jpg);
     float: right;
-    width: 247.325px;
+    width: 43%;
     height: 247.325px;
     margin: 20px 20px 20px 10px;
     background-size: cover;
@@ -163,8 +163,43 @@ h3{
 }
 #kep5{
     background-image: url(img/kep5.jpg);
-    height: 160px;
+    height: 170px;
     background-size: cover;
     background-position: center center;
     margin: 40px 10px 0px 10px;
+}
+#kep1 p{
+    padding-top: 325px;
+}
+#kep3 p{
+    padding-top: 205px;
+}
+#kep4 p{
+    padding-top: 205px;
+}
+#kep2 p{
+    padding-top: 425px;
+}
+#kep5 p{
+    padding-top: 150px;
+}
+#special p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+
+
+#nyitva{
+    background-color: black;
+    height: 600px;
+}
+#nyit_bal{
+    float: left;
+    height: 600px;
+}
+#nyit_kozep{
+    margin: auto;
+    height: 600px;
 }
