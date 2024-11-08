@@ -3,6 +3,7 @@ html{
     width: 100%;
     color: white;
     margin: 0px;
+    line-height: 150%;
 }
 body{
     margin: 0px;
@@ -62,7 +63,7 @@ h1{
     padding: 57.152px 300px 0px 0px;
     line-height: 150%;
 }
-h3{
+#tortenetunk h3{
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
@@ -100,7 +101,6 @@ h3{
 }
 #ajanlatunk p{
     margin-bottom: 20px;
-    line-height: 150%;
 }
 
 
@@ -122,6 +122,13 @@ h3{
 #spec_bal{
     width: 70%;
     float: left;
+}
+#special h3{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 110%;
+    color: rgb(116, 116, 116);
 }
 #kep1{
     margin: 20px;
@@ -194,12 +201,41 @@ h3{
 #nyitva{
     background-color: black;
     height: 600px;
+    padding-top: 60px;
 }
 #nyit_bal{
     float: left;
     height: 600px;
+    width: 30%;
+    text-align: right;
+}
+#nyit_bal h3{
+    padding-left: 100px;
 }
 #nyit_kozep{
-    margin: auto;
+    float: left;
     height: 600px;
+    width: 30%;
+    margin-left: 30px;
+}
+#nyit_jobb{
+    float: right;
+    height: 600px;
+    width: 30%;
+    color: white;
+    margin-left: 30px;
+}
+#nyit_tartalom{
+    margin: auto;
+    width: 65%;
+}
+#nyitva a{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#nyitva p{
+    margin: 0px;
+}
+#nyit_hetfo{
+    padding-top: 30px;
 }
