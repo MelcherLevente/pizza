@@ -102,7 +102,13 @@ h1{
 #ajanlatunk p{
     margin-bottom: 20px;
 }
-
+#ajanlatunk h3{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 110%;
+    color: rgb(116, 116, 116);
+}
 
 
 #special{
@@ -200,27 +206,28 @@ h1{
 
 #nyitva{
     background-color: black;
-    height: 600px;
-    padding-top: 60px;
+    height: 500px;
+    padding: 60px;
 }
 #nyit_bal{
     float: left;
-    height: 600px;
+    height: 500px;
     width: 30%;
     text-align: right;
 }
 #nyit_bal h3{
-    padding-left: 100px;
+    padding-left: 80px;
+    margin: 8px;
 }
 #nyit_kozep{
     float: left;
-    height: 600px;
+    height: 500px;
     width: 30%;
     margin-left: 30px;
 }
 #nyit_jobb{
     float: right;
-    height: 600px;
+    height: 500px;
     width: 30%;
     color: white;
     margin-left: 30px;
@@ -233,9 +240,28 @@ h1{
     text-decoration: underline;
     font-weight: bold;
 }
+#nyitva hr{
+    margin: 8px;
+}
 #nyitva p{
+    margin: 8px;
+}
+
+
+
+#lablec{
+    height: 200px;
+    background-color: black;
+    text-align: center;
+}
+#lablec_tartalom{
+    width: 65%;
+    margin: auto;
+}
+#lablec hr{
     margin: 0px;
 }
-#nyit_hetfo{
-    padding-top: 30px;
+#lablec p{
+    padding: 40px;
+    font-size: small;
 }
