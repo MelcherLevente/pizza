@@ -43,7 +43,7 @@ h1{
 }
 #tortenetunk{
     background-color: #222222;
-    height: 12.5%;
+    height: max-content;
     text-align: right;
     font-size: 85%;
 }
@@ -52,16 +52,19 @@ h1{
     width: 35%;
     display: inline;
     text-align: right;
-    height: 100%;
-    padding: 50px 20px;
+    padding: 50px 30px 0px 20px;
+    min-height: 300px;
+    max-height: 608px ;
 }
 #tort_jobb{
     display: inline;
     width: 60%;
     text-align: left;
-    height: 100%;
+    min-height: 300px;
+    max-height: 608px;
 }
 #tort_szoveg{
+    max-width: 100%;
     margin: 0px;
     padding: 57.152px 300px 0px 0px;
     line-height: 150%;
@@ -76,14 +79,15 @@ h1{
 #foglalas{
     font-weight: bold;
     margin-top: 20px;
-    padding-bottom: 6px;
+    padding-bottom: 60px;
     font-size: larger;
+    margin-bottom: 0px;
 }
 
 
 
 #ajanlatunk{
-    height: 16.66%;
+    height: 450px;
     background-color: #101010;
     text-align: center;
     font-size: 93%;
