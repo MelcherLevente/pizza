@@ -39,7 +39,7 @@ h1{
 
 #fokeret{
     width: 100%;
-    height: 74.25%;
+    
 }
 #tortenetunk{
     background-color: #222222;
@@ -58,7 +58,7 @@ h1{
 }
 #tort_jobb{
     display: inline;
-    width: 60%;
+    max-width: 80%;
     text-align: left;
     min-height: 300px;
     max-height: 608px;
@@ -241,7 +241,7 @@ h1{
 }
 #nyit_tartalom{
     margin: auto;
-    width: 65%;
+    width: 75%;
 }
 #nyitva a{
     text-decoration: underline;
@@ -272,3 +272,21 @@ h1{
     padding: 40px;
     font-size: small;
 }
+
+
+@media only screen and (min-width: 565px) and (max-width: 970px) {
+    #tort_szoveg{
+        padding-right: 20px;
+    }
+    #ajan_tartalom{
+        width: 100%;
+        padding: 20px;
+    }
+    #ajanlatunk ul{
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+    #ajanlatunk{
+        height: max-content;
+    }
+  }
