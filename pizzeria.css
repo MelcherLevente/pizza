@@ -274,12 +274,12 @@ h1{
 }
 
 
-@media only screen and (min-width: 565px) and (max-width: 970px) {
+@media only screen and (min-width: 620px) and (max-width: 970px) {
     #tort_szoveg{
         padding-right: 20px;
     }
     #ajan_tartalom{
-        width: 100%;
+        width: 90%;
         padding: 20px;
     }
     #ajanlatunk ul{
@@ -288,5 +288,35 @@ h1{
     }
     #ajanlatunk{
         height: max-content;
+    }
+    #ajanlatunk h1{
+        padding-top: 20px;
+    }
+
+    #spec_tartalom{
+        width: 100%;
+    }
+    #kep2{
+        height: 60%;
+    }
+    #special h1{
+        padding: 40px 60px 10px 60px;
+    }
+    
+    #nyit_tartalom{
+        width: 100%;
+    }
+    #nyit_bal h3{
+        padding: 0px
+    }
+    #nyit_bal{
+        width: 28%;
+    }
+    #nyit_kozep{
+        margin-left: 0px;
+        width: 40%;
+    }
+    #nyit_jobb{
+        margin-left: 0px;
     }
   }
