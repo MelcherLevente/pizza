@@ -87,7 +87,7 @@ h1{
 
 
 #ajanlatunk{
-    height: 450px;
+    height: 400px;
     background-color: #101010;
     text-align: center;
     font-size: 93%;
@@ -105,6 +105,7 @@ h1{
     border: 1px solid white;
     padding: 12px 50px 12px 50px;
     margin: 20px;
+    width: 8%;
 }
 #ajanlatunk p{
     margin-bottom: 20px;
@@ -116,7 +117,10 @@ h1{
     font-size: 110%;
     color: rgb(116, 116, 116);
 }
-
+#ajanlatunk ul{
+    padding-left: 0px;
+    margin: auto;
+}
 
 #special{
     height: 880px;
@@ -318,5 +322,52 @@ h1{
     }
     #nyit_jobb{
         margin-left: 0px;
+    }
+  }
+  @media only screen and (min-width: 300px) and (max-width: 619px){
+    #fejlec{
+        background-size: auto;
+        height: 300px;
+        background-position: 50% 30%;
+    }
+    #html{
+        font-size: 70%;
+    }
+    #tort_bal{
+        padding: 5px;
+        width: 95%;
+        min-height: 90px;
+    }
+    #tort_szoveg{
+        padding: 5px;
+    }
+    #foglalas{
+        padding-bottom: 10px
+    }
+    #ajan_tartalom{
+        width: 100%;
+    }
+    #ajanlatunk{
+        height: max-content;
+    }
+    #ajanlatunk li{
+        width: 30%;
+    }
+    #ajanlatunk h1{
+        padding-top: 20px;
+    }
+    #special h1{
+        padding: 20px 0px;
+        width: fit-content;
+    }
+    #spec_bal{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    #spec_jobb{
+        display: block;
+        float: none;
+        width: 100%;
     }
   }
