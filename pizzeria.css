@@ -336,7 +336,7 @@ h1{
         height: 280px;
     }
   }
-  @media only screen and (min-width: 300px) and (max-width: 619px){
+  @media only screen and (min-width: 310px) and (max-width: 619px){
     #fejlec{
         background-size: auto;
         height: 300px;
@@ -346,9 +346,12 @@ h1{
         font-size: 70%;
     }
     #tort_bal{
-        padding: 5px;
+        padding: 5px 0px;
         width: 98%;
-        min-height: 90px;
+        height: max-content;
+    }
+    #tort_jobb{
+        padding: 10px;
     }
     #tort_szoveg{
         padding: 5px;
@@ -372,7 +375,7 @@ h1{
         padding: 20px 0px;
         width: max-content;
         margin: auto;
-        font-size: 180%;
+        font-size: 140%;
     }
     #spec_bal{
         display: block;
@@ -407,7 +410,35 @@ h1{
         float: none;
     }
     #spec_tartalom{
-        width: 80%;
+        width: 90%;
         padding-bottom: 30px;
+    }
+    #nyitva{
+        padding: 10px;
+        height: max-content;
+    }
+    #nyit_tartalom{
+        width: 100%;
+        display: block;
+    }
+    #nyit_bal, #nyit_kozep, #nyit_jobb{
+        width: 100%;
+        height: max-content;
+        float: none;
+        margin: 20px 0px;
+    }
+    #lablec_tartalom{
+        width: 100%;
+    }
+    #lablec{
+        height: max-content;
+        margin: 0px;
+    }
+    #lablec p{
+        padding: 15px;
+        margin: 0px;
+    }
+    #nyit_bal h3{
+        padding-left: 0px;
     }
   }
